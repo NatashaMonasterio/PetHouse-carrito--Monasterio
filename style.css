@@ -1,0 +1,32 @@
+/* INDEX */
+
+.titulo {
+    color: black;
+}
+
+.navegador a{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    border-radius: 1em;
+}
+
+
+/* TODAS LAS PAGINAS */
+
+.logoNav{
+    background-color: rgba(0, 0, 0, 0.982);
+}
+
+.navegadorPequeño a {
+    color: black;
+    background-color:rgba(17, 98, 237, 0.616) ;
+    border-radius: 1em;
+    padding: 0.5rem;
+    font-weight: 600;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.lineaSeparadora{
+    background-color: black;
+    height: 0.4vh;
+}
