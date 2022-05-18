@@ -3,24 +3,36 @@
         "id": 1,
         "nombre": "Alimento Ken L Adulto 22+3kg",
         "precio": 6700,
-        "imagen": "./imagenes/KenLAdulto.PNG"
+        "imagen": "../imagenes/KenLAdulto.PNG"
     },
     {
         "id": 2,
         "nombre": "Alimento Ken L Cachorro 15+3kg",
         "precio": 5200,
-        "imagen": "./imagenes/KenLCachorro.PNG"
+        "imagen": "../imagenes/KenLCachorro.PNG"
       },
     {
         "id": 3,
         "nombre": "Alimento Nutrique Adulto Raza Mediana",
         "precio": 410,
-        "imagen": "./imagenes/NutriqueAdulto.PNG"
+        "imagen": "../imagenes/NutriqueAdulto.PNG"
     },
     {
         "id": 4,
         "nombre": "Alimento Pro Plan Adulto Raza Pequeña",
         "precio": 2800,
-        "imagen": "./imagenes/ProPlanAdulto.PNG"
+        "imagen": "../imagenes/ProPlanAdulto.PNG"
+    },
+    {
+        "id": 5,
+        "nombre": "Alimento Royal Canin Mini Adulto",
+        "precio": 1224,
+        "imagen": "../imagenes/RoyalMiniAdulto.PNG"
+    },
+    {
+        "id": 6,
+        "nombre": "Alimento Top Nutrition Adulto Raza Grande",
+        "precio": 6520,
+        "imagen": "../imagenes/TopNutritionAdulto.PNG"
     }
 ]

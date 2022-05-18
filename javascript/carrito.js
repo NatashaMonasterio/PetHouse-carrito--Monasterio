@@ -4,6 +4,8 @@ alimentosPerro.push(new Producto(1, "Alimento Ken L Adulto 22+3kg", 6700, "./ima
 alimentosPerro.push(new Producto(2, "Alimento Ken L Cachorro 15+3kg", 5200, "../imagenes/KenLCachorro.PNG"));
 alimentosPerro.push(new Producto(3, "Alimento Nutrique Adulto Raza Mediana", 410, "../imagenes/NutriqueAdulto.PNG"));
 alimentosPerro.push(new Producto(4, "Alimento Pro Plan Adulto Raza Pequeña", 2800, "../imagenes/ProPlanAdulto.PNG"));
+alimentosPerro.push(new Producto(5, "Alimento Royal Canin Mini Adulto", 1224, "../imagenes/ProPlanAdulto.PNG"));
+alimentosPerro.push(new Producto(6, "Alimento Top Nutrition Adulto Raza Grande", 6520, "../imagenes/ProPlanAdulto.PNG"));
 
 let carrito = [];
 
@@ -18,13 +20,13 @@ const claveLocalStorage = "compraCarrito";
 
 /* DIBUJO PRODUCTOS */ 
 function muestraProductos() {
-    fetch('./data/productos.json')
+    fetch('../data/productos.json')
     .then(response => response.json())
     .then(data =>{
         data.forEach((info) =>{
             /*estructura*/
             let estructura = document.createElement("div");
-            estructura.classList.add("card", "col-4");
+            estructura.classList.add("card");
 
             /*cuerpo*/
             let bodyCard = document.createElement("div");
@@ -37,7 +39,7 @@ function muestraProductos() {
 
             /*imagen*/
             let foto = document.createElement("img");
-            foto.classList.add("img-fluid");
+            foto.classList.add("img-fluid", "fotos");
             foto.setAttribute("src", info.imagen);
 
             /*precio*/
@@ -45,7 +47,7 @@ function muestraProductos() {
             moneda.classList.add("card-text");
             moneda.textContent = `${divisa}${info.precio}`;
             
-            /*boton agregar*/
+            /*boton agregar producto al carrito*/
             let agregar = document.createElement("button");
             agregar.classList.add("btn", "btn-primary");
             agregar.textContent = "+";

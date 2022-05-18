@@ -10,6 +10,9 @@
     border-radius: 1em;
 }
 
+.indexFondo{
+    background-image: url(/imagenes/fondo.jpeg);
+}
 
 /* TODAS LAS PAGINAS */
 
@@ -30,3 +33,16 @@
     background-color: black;
     height: 0.4vh;
 }
+
+.cuerpoProductos {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 2fr);
+    text-align: center;
+}
+
+.fotos {
+    width: 200px;
+    height: 300px;
+}
+  
